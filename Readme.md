@@ -1,7 +1,8 @@
 # Twitter stream csv dumper
 
-    POC Twitter stream listener
-    Dumps data to csv from https://dev.twitter.com/docs/api/1.1/post/statuses/filter
+POC Twitter stream listener.
+
+Dumps data to csv from https://dev.twitter.com/docs/api/1.1/post/statuses/filter
 
 
 ## Installation
@@ -17,7 +18,7 @@ And then execute:
 
 ## Usage
 
-    ./dump_statuses.rb --search "bandyou","b-and-you","bouygues","bouyguestelecom","b and you" --languages french,fr,catalan --verbose >> text.csv
+    ./dump_statuses.rb --search "bandyou","b-and-you","bouygues","bouyguestelecom","b and you" --languages french,fr,catalan --verbose >> b_tweets.csv
 
 
 ## Contributing
