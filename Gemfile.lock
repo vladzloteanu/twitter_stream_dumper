@@ -1,0 +1,53 @@
+GIT
+  remote: git://github.com/moeffju/language_detector.git
+  revision: 721b5137dbcd63e0e5bdd99a25ead02e7ffc674c
+  specs:
+    language_detector (0.1.5)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activesupport (3.2.9)
+      i18n (~> 0.6)
+      multi_json (~> 1.0)
+    addressable (2.3.2)
+    cookiejar (0.3.0)
+    daemons (1.1.9)
+    em-http-request (1.0.3)
+      addressable (>= 2.2.3)
+      cookiejar
+      em-socksify
+      eventmachine (>= 1.0.0.beta.4)
+      http_parser.rb (>= 0.5.3)
+    em-socksify (0.2.1)
+      eventmachine (>= 1.0.0.beta.4)
+    em-twitter (0.2.1)
+      eventmachine (~> 1.0)
+      http_parser.rb (~> 0.5)
+      simple_oauth (~> 0.1)
+    eventmachine (1.0.0)
+    faraday (0.8.4)
+      multipart-post (~> 1.1)
+    http_parser.rb (0.5.3)
+    i18n (0.6.1)
+    multi_json (1.4.0)
+    multipart-post (1.1.5)
+    simple_oauth (0.1.9)
+    tweetstream (2.3.0)
+      daemons (~> 1.1)
+      em-http-request (~> 1.0.2)
+      em-twitter (~> 0.2)
+      multi_json (~> 1.3)
+      twitter (~> 4.0)
+    twitter (4.4.0)
+      faraday (~> 0.8)
+      multi_json (~> 1.3)
+      simple_oauth (~> 0.1.6)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  activesupport
+  language_detector!
+  tweetstream
