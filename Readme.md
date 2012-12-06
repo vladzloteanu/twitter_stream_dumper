@@ -9,12 +9,15 @@ Dumps data to csv from https://dev.twitter.com/docs/api/1.1/post/statuses/filter
 
 Clone the repo from github:
 
-
+    git clone git://github.com/vladzloteanu/twitter_stream_dumper.git
 
 And then execute:
 
-    $ bundle
+    cd twitter_stream_dumper && bundle
 
+Setup `config/twitter.yml`:
+
+    cp config/twitter.yml.example cp config/twitter.yml
 
 ## Usage
 
